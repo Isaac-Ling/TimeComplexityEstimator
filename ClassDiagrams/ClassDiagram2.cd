@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Project.Equation">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAQAAAAAAAAACAAQQQAAAEAAA=</HashCode>
+      <FileName>UI\Graph\Equation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.ConstantEquation">
+    <Position X="18.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAQAAAEAAA=</HashCode>
+      <FileName>UI\Graph\Equation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.LinearEquation">
+    <Position X="15.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAQAAAEAAA=</HashCode>
+      <FileName>UI\Graph\Equation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.QuadraticEquation">
+    <Position X="15.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAQAAAEAAA=</HashCode>
+      <FileName>UI\Graph\Equation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.CubicEquation">
+    <Position X="18.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAQAAAEAAA=</HashCode>
+      <FileName>UI\Graph\Equation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.LogarithmicEquation">
+    <Position X="15.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAQAAAEAAA=</HashCode>
+      <FileName>UI\Graph\Equation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.ExponentialEquation">
+    <Position X="18.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAQAAAEAAA=</HashCode>
+      <FileName>UI\Graph\Equation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Graph" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Project.Graph.Vector">
+        <TypeIdentifier>
+          <NewMemberFileName>UI\Graph\Graph.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Class Name="Project.Graph.Coordinate">
+        <TypeIdentifier>
+          <NewMemberFileName>UI\Graph\Graph.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="Project.Graph.Node">
+        <TypeIdentifier>
+          <NewMemberFileName>UI\Graph\Graph.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Enum Name="Project.Graph.Axis">
+        <TypeIdentifier>
+          <NewMemberFileName>UI\Graph\Graph.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAABAMiAAwBGAwQAAAAAACEAWAACCQBAwAIAgIAA4QA=</HashCode>
+      <FileName>UI\Graph\Graph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Project.Graphics">
+    <Position X="20.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>UI\Graphics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Input">
+    <Position X="20.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Input.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Menu" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAABAAAAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Menu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Project.Algorithm">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAEgACAAAABAAAIAkBAAgAIAAEICAAAAEAI=</HashCode>
+      <FileName>Program\Algorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.MathHelper">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAACAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Program\MathHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.TimeComplexityEstimator">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQEAAAEAAAAAFAAACAAAAQAAECAAABAAAAAAQAAAAAA=</HashCode>
+      <FileName>Program\TimeComplexityEstimator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Project.Result">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAgAAABAAAAAAQAAAAAA=</HashCode>
+      <FileName>Program\TimeComplexityEstimator.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Project.MenuOption">
+    <Position X="20.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="Project.Complexity">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAgAQAAABAAAEAAAAAAAAAAAAgAIAAAAAAAAAA=</HashCode>
+      <FileName>Program\TimeComplexityEstimator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

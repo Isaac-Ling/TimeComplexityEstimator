@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Project.GraphState">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgEAAAAAAAgAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>States\Abstracts\GraphState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.MenuState">
+    <Position X="16.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAIgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>States\Abstracts\MenuState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.State">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>States\Abstracts\State.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Project.Calulating">
+    <Position X="18" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>States\Algorithm States\Calulating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.GetAlgorithm">
+    <Position X="14.5" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="Project.State" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="15.25" Y="2.18" />
+        <Point X="15.25" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>States\Algorithm States\GetAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Running">
+    <Position X="19.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAAAAAgAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>States\Algorithm States\Running.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.ChangeAxisScale">
+    <Position X="15.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAAAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>States\Result States\ChangeAxis\ChangeAxisScale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.ChangeAxisSize">
+    <Position X="10" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAAAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>States\Result States\ChangeAxis\ChangeAxisSize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Extrapolate">
+    <Position X="8.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAQAAAAAQAAAAAAAAEAA=</HashCode>
+      <FileName>States\Result States\Extrapolate\Extrapolate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.GetAxis">
+    <Position X="11.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>States\Result States\Extrapolate\GetAxis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.SelectResult">
+    <Position X="8.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACAAQAAgAAAAAAAAAAAAAAABgAAAAAAAAAAQA=</HashCode>
+      <FileName>States\Result States\SelectResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.DisplayResults">
+    <Position X="13.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAAAgCAAAAAAAgQUAAAAAgAgAAAAAAAAwA=</HashCode>
+      <FileName>States\Result States\DisplayResults.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Interrogate">
+    <Position X="10" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAABAQAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>States\Result States\Interrogate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Quit">
+    <Position X="17" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgACAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>States\Quit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Welcome">
+    <Position X="19" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>States\Welcome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Program">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAACAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.StateManager">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAQABAAgIAAAAAAAAAAAACAAAAABAAAEAQA=</HashCode>
+      <FileName>States\StateManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.FindIntersection">
+    <Position X="11.75" Y="9.5" Width="1.5" />
+    <InheritanceLine Type="Project.GraphState" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.75" Y="5.704" />
+        <Point X="11.75" Y="6.125" />
+        <Point X="11.7" Y="6.125" />
+        <Point X="11.7" Y="9.2" />
+        <Point X="12.5" Y="9.2" />
+        <Point X="12.5" Y="9.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>States\Result States\FindIntersection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Project.IDrawable">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Program\Interfaces\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Project.IUpdateable">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Program\Interfaces\Interfaces.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
